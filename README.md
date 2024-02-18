@@ -1,4 +1,5 @@
 **Hospital Management System**
+
 This is a comprehensive Hospital Management System designed to streamline various processes within a hospital or healthcare facility. It provides a user-friendly interface for managing departments, doctors, patient appointments, and other essential functionalities.
 
 Features:
