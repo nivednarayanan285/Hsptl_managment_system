@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<div style="display: flex; text-align: center;margin-left: 35%;">
+    <div style="padding-top: 30px; vertical-align: middle;" >
+        <h1>{{doc.doc_name}}</h1>
+        <h2>{{doc.doc_dep}}</h2>
+        <h3>{{doc.doc_spec}}</h3>
+        
+      </div>
+    <div>
+        <img style="width: 140%;" src="../static/images/realdioc.png" alt="">
+
+      </div>
+</div>
+{% endblock content %}

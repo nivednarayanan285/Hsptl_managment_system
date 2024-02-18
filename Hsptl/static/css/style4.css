@@ -1,0 +1,133 @@
+.logo{
+    width: 80px;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 50%;
+    ;
+}
+
+div.lists{
+    text-align: center;
+    align-items: center;
+    font-size: 23px;
+}
+li:hover {
+    text-decoration: none;
+    text-decoration-style:unset; /* Style of the underline */
+
+}
+
+.navbar{
+    height: 90px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    background-color: red;
+}
+li{
+    transition: color 0.5s ease, text-decoration 0.5s ease;
+}
+.nav{
+    text-decoration: none;
+    margin-right: 15px;
+    color:rgba(0, 0, 0, 0.587)
+}
+.nav:hover{
+    color: teal
+}
+.aboutus{
+    margin-bottom: 30px;
+}
+
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Carousel */
+#carouselExampleAutoplaying {
+    width: 100%;
+}
+
+/* Welcome Section */
+#welcome {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+/* Legacy Section */
+#legacy {
+    padding: 50px 0;
+}
+
+/* Meet Our Team Section */
+#meet-our-team {
+    padding: 50px 0;
+}
+
+/* Latest News Section */
+#latest-news {
+    padding: 50px 0;
+}
+
+.news-item {
+    margin-bottom: 30px;
+}
+
+/* Testimonials Section */
+#testimonials {
+    padding: 50px 0;
+}
+
+.testimonial {
+    margin-bottom: 30px;
+    border-left: 3px solid #3498db;
+    padding-left: 20px;
+}
+
+.author {
+    font-style: italic;
+    color: #555;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.card-text {
+    color: #555;
+}

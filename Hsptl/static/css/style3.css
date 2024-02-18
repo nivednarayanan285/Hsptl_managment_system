@@ -1,0 +1,138 @@
+.logo{
+    width: 80px;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 50%;
+    ;
+}
+
+div.lists{
+    text-align: center;
+    align-items: center;
+    font-size: 23px;
+}
+li:hover {
+    text-decoration: none;
+    text-decoration-style:unset; /* Style of the underline */
+
+}
+
+.navbar{
+    height: 90px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    background-color: rgb(84, 18, 216);
+}
+li{
+    transition: color 0.5s ease, text-decoration 0.5s ease;
+}
+.nav{
+    text-decoration: none;
+    margin-right: 15px;
+    color:rgba(0, 0, 0, 0.587)
+}
+.nav:hover{
+    color: teal
+}
+.aboutus{
+    margin-bottom: 30px;
+}
+
+#legacy {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#legacy h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+#legacy p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+}
+
+/* Example styles for the team section */
+#meet-our-team {
+    padding: 40px 0;
+    text-align: center;
+}
+
+#meet-our-team h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+#meet-our-team p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+}
+
+/* Example styles for the latest news section */
+#latest-news {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+
+#latest-news h2 {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+}
+
+#latest-news .news-item {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#latest-news .news-item h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+#latest-news .news-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Example styles for the testimonials section */
+#testimonials {
+    padding: 40px 0;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+#testimonials .testimonial {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#testimonials .testimonial p {
+    font-size: 18px;
+    color: #666;
+}
+
+#testimonials .testimonial .author {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #888;
+}
+
+
+

@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+
+<div style="display: inline-block; text-align: center;  margin: 15px 0px 5px; ">
+  <h1>Our Doctors</h1>
+  {% for i in doc %}
+  <div class="card" style="text-align: center; width: 200px;display: inline-block; margin: 20px 10px 10px ;">
+    <a class="atag" style="text-decoration: none; color: black;" href="{% url 'docdetailview' i.id %} "><img class="card-img-top" src="{{i.doc_image.url}}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Dr. {{i.doc_name}}</h5>
+      <h6 class="card-title">{{i.doc_dep}}</h6>
+      <p class="card-text">{{i.doc_spec}}</p>
+    </div></a>
+    </div>
+  
+    <!-- -->
+{% endfor %}
+</div>
+{% endblock %}

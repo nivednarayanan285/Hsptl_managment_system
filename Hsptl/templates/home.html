@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../static/images/hospital-hallway-with-motion-effect.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../static/images/plant-picture-clean-room-equipment-stainless-steel-machines.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  
+  <section id="welcome" style="margin-top: 10px;">
+    <div class="container" style="text-align: center;">
+      <h2 style="font-size: 45px; margin-bottom: 30px;">Welcome to City Hospital {{username1}} </h2>
+        
+        <p>At City Hospital, we are committed to providing compassionate and high-quality healthcare services to our community. Our state-of-the-art facilities and experienced medical professionals ensure that you receive the best possible care.</p>
+    </div>
+</section>
+
+<section id="legacy">
+    <div class="container">
+        <h2>25 Years of Dedication</h2>
+        <p>For the past 25 years, City hospital has been a pillar of excellence in healthcare. We are proud to have served our community with dedication, compassion, and cutting-edge medical services. Our legacy is built on a commitment to improving lives and fostering a healthier future.</p>
+    </div>
+</section>
+
+<!-- Meet Our Team Section -->
+<section id="meet-our-team">
+    <div class="container">
+        <h2>Meet Our Team</h2>
+        <p>Our dedicated team of healthcare professionals is here to provide you with personalized and expert care. Meet the individuals who make a difference in your well-being.</p>
+        <!-- Include information about the team members -->
+    </div>
+</section>
+<div style="text-align: center;">
+  <a style="text-decoration: none;text-align: center;" href="{% url 'doctors' %}">Know our Doctors</a>
+</div>
+
+
+<!-- Latest News Section -->
+<section id="latest-news">
+    <div class="container">
+        <h2>Latest News</h2>
+        <div class="news-item">
+            <h3>Exciting Announcement</h3>
+            <p>Stay tuned for an exciting announcement coming soon. We are committed to bringing you the latest updates in healthcare and well-being.</p>
+        </div>
+        <div class="news-item">
+            <h3>New Service Launch</h3>
+            <p>We are delighted to announce the launch of a new service aimed at enhancing your healthcare experience. Learn more about how this service can benefit you.</p>
+        </div>
+      
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials">
+    <div class="container">
+        <h2>What Our Patients Say</h2>
+        <div class="testimonial">
+            <p>"The care and attention I received at [Your Hospital Name] were exceptional. The staff went above and beyond to ensure my comfort and recovery."</p>
+            <p class="author">- John Doe</p>
+        </div>
+        <div class="testimonial">
+            <p>"I am grateful for the outstanding medical care provided by the team at [Your Hospital Name]. They made me feel supported and well-cared for."</p>
+            <p class="author">- Jane Smith</p>
+        </div>
+        <!-- Include more testimonials as needed -->
+    </div>
+</section>
+{% endblock %}

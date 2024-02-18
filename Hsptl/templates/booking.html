@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<h1 style="text-align: center;">Appointments</h1>
+<div  style="display: flex;justify-content: space-evenly;margin-bottom: 5px ;margin-top: 8px; padding-right: 20px;padding-bottom: 0px;">
+    <div>
+        <img style="width: 630px;" src="../static/images/240_F_260796988_ENubhhAYyIlUAfG8B6gDozOk9zArN2kS.jpg" alt="">
+    </div>
+<div style="width: 40%; text-align: left; margin:20px 0px 0px 20px;border-radius: 10px; border: 1px solid black; padding: 20px; background-color: rgb(86, 172, 225);">
+<form action="" method="post">
+{% csrf_token %}
+{{form|crispy}}
+<input style="margin-top: 10px;" type="submit" value="submit">
+</form>
+</div>
+</div>
+{% endblock content %}

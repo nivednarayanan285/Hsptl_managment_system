@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+    
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.card-text {
+    color: #555;
+}
+</style>
+
+<div class="container">
+    <h1 class="text-center mb-5 mt-3">Our Departments</h1>
+
+    {% for department in dep %}
+    <div class="card mb-4">
+        <div class="card-body">
+            <h4 class="card-title">{{ department.dep_name }}</h4>
+            <p class="card-text">{{ department.dep_description }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock content %}
